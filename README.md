@@ -1,4 +1,4 @@
-# 🧠 MindKeeper — 多平台 AI 自动分类记录系统
+# 🧠 MindKeeper — 震惊！你的微信聊天记录自动变成了知识库
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**在微信/钉钉/飞书/Telegram 上发消息，AI 自动分类归档到本地知识库。**
+**🏆 微信/钉钉/飞书发消息 → AI自动分类归档 → 永不遗忘的个人知识库**
 
 [English](#english) · [中文](#中文)
 
@@ -15,9 +15,13 @@
 
 <a name="中文"></a>
 
-## 📖 中文介绍
+## 📖 这是啥？
 
-**MindKeeper** 是一个基于 AstrBot 的多平台消息自动分类记录系统。连接你的 IM 账号后，所有消息经过 LLM（Claude/DeepSeek）自动语义理解，归类存入结构化 Markdown 知识库。
+你有没有这种体验：微信上看到的干货、群里讨论的精华、突然蹦出来的灵感——当时觉得"先放着回头整理"，然后就再也没找到过？
+
+**MindKeeper** 解决了这个问题。连上你的微信/钉钉/飞书/Telegram，所有消息经过 **Claude/DeepSeek** 自动理解、分类、归档为结构化 Markdown 笔记。你只管聊天，它帮你整理。
+
+> 💡 适合：经常在微信上学习/工作的知识工作者、投资者、产品经理、创业者
 
 ### ✨ 核心功能
 
@@ -106,9 +110,9 @@ mindkeeper/
 
 <a name="english"></a>
 
-## 📖 English
+## 📖 English — Auto-Save Your Chat History as a Knowledge Base
 
-**MindKeeper** is a multi-platform AI auto-classification knowledge keeper built on AstrBot. Connect your WeChat/DingTalk/Feishu/Telegram accounts, and every message gets automatically classified by LLM (Claude/DeepSeek) and saved as structured Markdown.
+**MindKeeper** turns your WeChat/DingTalk/Feishu/Telegram messages into a structured knowledge base — automatically. Every message gets semantically classified by Claude/DeepSeek and saved as organized Markdown. Zero effort knowledge management.
 
 ### ✨ Features
 
