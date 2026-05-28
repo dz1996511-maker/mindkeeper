@@ -1,0 +1,22 @@
+services:
+  astrbot:
+    image: soulter/astrbot:latest
+    container_name: mindkeeper-astrbot
+    restart: unless-stopped
+    ports:
+      - "${ASTRBOT_WEBUI_PORT:-6185}:6185"
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+      - ASTRBOT_WEBUI_USERNAME=${ASTRBOT_USER:-admin}
+      - ASTRBOT_WEBUI_PASSWORD=${ASTRBOT_PASS:?err}
+    volumes:
+      - ./config/astrbot.yaml:/AstrBot/data/astrbot.yaml:ro
+      - ./data:/AstrBot/data
+      - ./plugins:/AstrBot/data/plugins
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - mindkeeper-net
+
+networks:
+  mindkeeper-net:
+    driver: bridge

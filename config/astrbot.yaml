@@ -1,0 +1,8 @@
+webui:
+  host: "0.0.0.0"
+  port: 6185
+
+# LLM 提供者和消息平台适配器请在 WebUI 中配置
+# WebUI 地址: http://<你的服务器IP>:6185
+# 默认账号: admin (由 .env 中 ASTRBOT_USER 指定)
+# 默认密码: (由 .env 中 ASTRBOT_PASS 指定)

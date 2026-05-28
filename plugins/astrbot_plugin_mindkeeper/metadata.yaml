@@ -1,0 +1,7 @@
+plugin_name: "astrbot_plugin_mindkeeper"
+author: "MindKeeper Team"
+version: "1.0.0"
+description: "自动分类消息并按类别保存为结构化 Markdown 到本地知识库。支持 #投资记录、#哲学观、#问题库、#决策闭环"
+astrbot_version: ">=4.5,<5"
+support_platforms:
+  - all

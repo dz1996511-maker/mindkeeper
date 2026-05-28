@@ -1,0 +1,39 @@
+{
+  "default_provider_id": {
+    "description": "默认 LLM 提供者 ID（留空则自动使用当前会话提供者）",
+    "type": "string",
+    "default": ""
+  },
+  "kb_path": {
+    "description": "知识库存储路径（容器内绝对路径）",
+    "type": "string",
+    "default": "/AstrBot/data/knowledge_base"
+  },
+  "archive_dir": {
+    "description": "导出文件存储目录",
+    "type": "string",
+    "default": "/AstrBot/data/archive"
+  },
+  "min_length": {
+    "description": "最小消息长度（少于该长度的消息不记录）",
+    "type": "int",
+    "default": 10,
+    "min": 1,
+    "max": 500
+  },
+  "notify_on_save": {
+    "description": "保存后是否在聊天中发送通知",
+    "type": "bool",
+    "default": true
+  },
+  "auto_classify": {
+    "description": "自动分类所有消息（关闭后仅处理 /record 命令）",
+    "type": "bool",
+    "default": true
+  },
+  "date_format": {
+    "description": "目录日期格式（Python strftime）",
+    "type": "string",
+    "default": "%Y-%m"
+  }
+}

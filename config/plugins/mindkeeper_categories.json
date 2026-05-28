@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": "investment",
+      "display": "#投资记录",
+      "dir": "01__investment",
+      "description": "投资决策、市场分析、交易记录、财务规划"
+    },
+    {
+      "id": "philosophy",
+      "display": "#哲学观",
+      "dir": "02__philosophy",
+      "description": "人生感悟、价值观、哲学思考、认知升级"
+    },
+    {
+      "id": "questions",
+      "display": "#问题库",
+      "dir": "03__questions",
+      "description": "遇到的问题、技术难点、待研究事项"
+    },
+    {
+      "id": "decisions",
+      "display": "#决策闭环",
+      "dir": "04__decisions",
+      "description": "决策复盘、执行结果、经验教训"
+    }
+  ]
+}
